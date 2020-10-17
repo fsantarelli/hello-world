@@ -12,7 +12,7 @@ app = Flask(__name__)
 def home(): 
     if(request.method == 'GET'): 
   
-        data = "hello world"
+        data = "test data"
         return jsonify({'data': data}) 
   
   
@@ -30,4 +30,3 @@ def disp(num):
 if __name__ == '__main__': 
   
     app.run(debug = True)
-    
